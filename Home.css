@@ -72,3 +72,48 @@ body{
     animation-direction: alternate;
     padding:5px 17px;
 }
+
+.heading-section h2{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.img-wrap .effect{
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+}
+.img-wrap .effect:after{
+    z-index:-1;
+    content:"";
+    position: absolute;
+    top:10px;
+    right:10px;
+    bottom:10px;
+    left:10px;
+    background: #011525;
+    transition: .3s all ease-in-out;
+}
+.img-wrap:hover .effect:after{
+    right:-10px;
+    bottom:-10px;
+    position: absolute;
+}
+.btn-about{
+    background-color: #030157!important;
+    color:#fff!important;
+    margin-right:5px;
+    margin-left:5px;
+    animation:skew 3s infinite;
+    animation-direction: normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+}
+@keyframes skew{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
