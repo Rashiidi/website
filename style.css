@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+/*Navbar*/
+.bg{
+    background: #077cb3;
+}
+.main-navbar-light{
+    background:transparent;
+    position: absolute;
+    left:0;
+    right: 0;
+    z-index:3;
+    top:10px;
+}
+
+#main-navbar {
+    padding: 10px 50px;
+}
+#my-nav{
+    width: auto;
+
+}
+#my-nav .links {
+    width: max-content;
+}
+/* hero page  */
+.hero-wrap{
+    width:100%;
+    height:850px;
+    position:relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index:0;
+}
+.hero-wrap .overlay{
+    position: absolute;
+    top:0;
+    opacity: .5;
+    background: #0c0f12;
+    height: 850px;
+}
+.hero-wrap .main-text{
+    height:800px!important;
+
+}
+.main-text h1{
+    font-size:60px;
+    color:#eae8e4;
+    line-height:1.1;
+    font-weight: bold;
+    
+}
+.main-text p{
+    line-height: 1.5;
+   color:#fff;
+}
+.btn-hero{
+    background-color: #030157!important;
+    color:#fff;
+    margin-right:5px;
+    margin-left:5px;
+    animation:skew 3s infinite;
+    animation-direction: normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+}
