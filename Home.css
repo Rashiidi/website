@@ -17,17 +17,38 @@ body{
     right: 0;
     z-index:3;
     top:10px;
+    color: #080a0d;
 }
+  
+  
+  .navbar-brand {
+    margin-right: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    color: #090b0f;
+  }
 
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+    
 #main-navbar {
     padding: 10px 50px;
 }
 #my-nav{
     width: auto;
+    
 
 }
 #my-nav .links {
-    width: max-content;
+    width: max-content; 
 }
 /* hero page  */
 .hero-wrap{
@@ -118,7 +139,7 @@ body{
     }
 }
 .popular {
-    background-image: url(images/nature.jpeg);
+    background-image: url(https://i.postimg.cc/mgQkS98s/hero-2.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -133,7 +154,7 @@ body{
     left: 0;
     top: 0;
     background:linear-gradient(rgba(26, 144, 255, 0.5),rgba(236, 5, 236, 0.4)),
-    url(./images/history.jpeg)center;
+    url(./images/hero-2.jpg)center;
     background-size: cover;
     background-repeat: no-repeat;
     content: '';
@@ -186,4 +207,127 @@ body{
     opacity: 1;
   }
   
-/*==========End of Popular Places===========*/
+/*End of Popular Places*/
+.services .icon-circle{
+    text-align: center;
+    padding: 40px 20px;
+    transition: all ease-in-out 0.3s;
+    box-shadow: 2px 4px rgba(19,19,19,0.5);
+}
+.services .icon-circle.purple{
+    background: #3e0283;
+    color:#fff;
+}
+.services .icon-circle.pink{
+    background: #c405ca;
+    color:#fff;
+}
+.services .icon-circle.yellow{
+    background: #f7a91a;
+    color:#fff;
+}
+.services .icon-circle.blue{
+    background: #021633;
+    color:#fff;
+
+}
+.services .icon-circle .icon{
+    margin:0 auto;
+    width: 64px;
+    height:64px;
+    border-radius: 50px;
+    border:1px solid #fff;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+}
+.services .icon-circle .icon i{
+    font-size: 28px;
+}
+.services .icon-circle h4{
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+.services .icon-circle p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.services .icon-circle:hover{
+    border-color: #025277;
+    box-shadow: 0px 0 25px 0 rgba(3,75,122,0.1);
+}
+.services .icon-circle:hover .icon{
+    color:#fff;
+    background: #004299;
+}
+/*End of Services section*/
+.team .member{
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+}
+.team .member .member-img{
+    position: relative;
+    overflow: hidden;
+}
+.team .member .social{
+    position: absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out .3s;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+}
+.team .member .social a{
+    transition: color 0.3s;
+    color: #000;
+    margin:0 10px;
+    padding-top:8px;
+    display: inline-block;
+}
+.team .member .social a:hover{
+    color:#2181ff;
+}
+.team .member .social i{
+    font-size: 18px;
+    margin:0 2px;
+}
+.team .member .member-info{
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4{
+    font-weight: bold;
+    margin-bottom:5px;
+    font-size: 18px;
+    color:#000;
+}
+
+.team .member .member-info span{
+    display:block ;
+    font-size: 14px;
+    font-weight: lighter;
+    color:#000;
+}
+
+.team .member .member-info p{
+    font-style: italic;
+    font-style: 15px;
+    line-height: 26px;
+    color:#000;
+}
+
+.team .member:hover .social{
+    opacity: 1;
+}
