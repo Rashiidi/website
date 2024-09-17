@@ -331,3 +331,147 @@ body{
 .team .member:hover .social{
     opacity: 1;
 }
+.historical-places{
+    padding-top: 130px;
+    padding-bottom: 140px;
+    background: #f7fafd;
+}
+.historical-places .single-dest{
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: 0.3s;
+    margin-bottom:30px;
+}
+.historical-places .single-dest .thumb{
+    position:relative;
+    overflow: hidden;
+}
+.historical-places .single-dest .thumb img{
+    width:100%;
+
+}
+.historical-places .single-dest .thumb .price{
+    position: absolute;
+    background:#02acf0;
+    padding:7px 18px 4px 18px;
+    display:inline-block;
+    top:20px;
+    left:20px;
+    border-radius: 18px;
+    color:#fff;
+    font-size:16px;
+    transition: 0.3s;
+}
+.historical-places .single-dest .dest-info{
+    padding:27px 20px 25px 20px;
+}
+.historical-places .single-dest .dest-info h3{
+    font-size:22px;
+    font-weight: bold;
+    color:#040e27;
+    margin-bottom: 0;
+    transition:0.3s;
+}
+.historical-places .single-dest .dest-info p{
+    font-size: 14px;
+    font-weight: lighter;
+    color:#000;
+    margin-top:2px;
+    margin-bottom: 7px;
+}
+.historical-places .single-dest .dest-info .rating span i{
+    font-size: 12px;
+    color:#f88408;
+}
+.historical-places .single-dest .dest-info .rating span a{
+    font-size: 14px;
+    color:#000;
+    margin-left:5px;
+}
+.historical-places .single-dest .dest-info .rating .days{
+    font-size:14px;
+    font-weight: light;
+    color:#000;
+}
+.historical-places .single-dest .dest-info .rating .days i{
+    margin-right: 8px;
+}
+.historical-places .single-dest .dest-info .rating .days a{
+    font-size:14px;
+    color:#000;
+}
+.historical-places .single-dest:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.historical-places .single-dest:hover .dest-info h3{
+    color:#030942;
+}
+.historical-places .single-dest:hover .thumb .price{
+    background: #0292f1;
+}
+.btn-hist{
+    height: max-content;
+}
+/*=======End of historical places section=====*/
+.testimonial-section{
+    padding-bottom: 60px;
+
+}
+.testimonial-section .section-title h2{
+    font-weight: 60px;
+    color:#000;
+    margin-top: 0;
+}
+.testimonial-item{
+    margin-bottom:40px;
+}
+.testimonial-item .test-date{
+    font-size: 11px;
+    letter-spacing: 1.2px;
+    color:#242424;
+    opacity:0.5;
+    font-weight: 600;
+    line-height: 36px;
+}
+.testimonial-item h4{
+    color:#242424;
+    font-weight:600;
+    margin-bottom: 6px;
+}
+.testimonial-item .rating{
+    margin-bottom:15px;
+}
+.testimonial-item .rating i{
+    color:#ed8a19;
+}
+.testimonial-item p{
+    letter-spacing: 0.2px;
+    margin-bottom:30px;
+}
+.testimonial-item .customer{
+    overflow:hidden;
+}
+.testimonial-item .customer .customer-photo{
+   float:left;
+   margin-right:18px;
+}
+.testimonial-item .customer .customer-photo img{
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+}
+.testimonial-item .customer .test-text{
+    float:left;
+    padding-top:5px;
+}
+.testimonial-item .customer .test-text h6{
+    color:#033e55;
+    font-weight:600;
+    line-height: 24px;
+}
+.testimonial-item .customer .test-text h6 span{
+    display: block;
+    font-size: 12px;
+    color: #242424;
+    letter-spacing:0.2px;}
