@@ -475,3 +475,58 @@ body{
     font-size: 12px;
     color: #242424;
     letter-spacing:0.2px;}
+
+
+    /* contact */
+    .contact .icon-box{
+        color:#030942;
+        text-align:center;
+        box-shadow:0 0 15px rgba(2,81,160,0.6);
+        padding:20px 0 30px 0;
+    }
+    .contact .icon-box i.fab{
+        font-size:20px;
+        color:#0292f1;
+        border-radius: 50%;
+        padding:8px;
+        background:#030942;
+    }
+    .contact .icon-box h3{
+        font-size:20px;
+        color:#000;
+        font-weight:bold;
+        margin:10px 0;
+    }
+    .contact .icon-box p{
+        padding:0;
+        line-height:24px;
+        font-size:14px;
+        margin-bottom:0;
+    }
+    .contact .social-links{
+        margin-top:15px;
+        display:flex;
+        justify-content:center;
+    }
+    .contact .social-links a{
+        font-size:16px;
+        display: inline-block;
+        color:#fff;
+        line-height:1;
+        margin:0 8px;
+        transition: 0.3s;
+        padding:10px;
+        border-radius:50px;
+        border:1px solid #030942;
+    }
+    .contact .social-links a:hover{
+        color:#fff;
+        border-color:#030942;
+        background:#0292f1;
+    }
+    .contact form{
+        box-shadow:0 0 15px rgba(2,81,160,0.6);
+        padding:27px;
+    
+        
+    }
