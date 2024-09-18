@@ -1,200 +1,81 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Tourismo</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <script src="java.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <title>Vacations</title>
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
     <!---Navbar-->  
     <nav class="navbar navbar-expand-lg navbar-light main-navbar
-      bg m-navbar-light" id="main-navbar">
+      bg m-navbar-light" id="main-navbar" >
       <div class="container">
-          <a class="navbar-brand"href="#">Tourismo</a>
+          <a class="navbar-brand"href="#">The Islands OF Aloha</a>
           <button class="navbar-toggler"type="button"data-toggle="collapse"
           data-target="#my-nav" aria-controls="p-nav"aria-expanded="false"
           aria-label="toggle-navigation">
-        <span>Menu</span>
         </button>
+    </div>
         <div class="collapse navbar-collapse"id="my-nav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav links" >
                 <li class="nav-item active">
-                    <a href="index.html"class="nav-link">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"class="nav-link">About</a>
+                    <a href="#about-us">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"class="nav-link">Popular Places</a>
+                    <a href="#popular-places">popular places</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"class="nav-link">Services</a>
+                    <a href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#"class="nav-link">Historical Places</a>
+                    <a href="#historical-places">Historical places</a>
                 </li>
+                
                 <li class="nav-item">
-                    <a href="#"class="nav-link">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#"class="nav-link">Contact</a>
+                    <a href="#contact">contact</a>
                 </li>
             </ul>
         </div>
-      </div>
+      
     </nav>
-    <!--End of navbar-->
-    <!---Hero-Image-->
+    <!-- end of navbar -->
+     <!---Hero-Image-->
     <section class="hero-wrap"
-    style="background-image:url('https://i.postimg.cc/RVYKYw7J/hero.jpg');">
+    style="background-image:url('images/img.jpg');">
     <div class="overlay"></div>
     <div class="container">
         <div class="row no-gutters main-text align-items-center">
             <div class="col-lg-7 col-md-6 d-flex align-items-end">
                 <div class="text">
                     <h1 class="mb-4 text-capitalize">find a perfect deal<br>
-                        for your next trip
+                        for your trip here in Paradise
                       </h1>
                       <p style="font-size:18px;">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis ducimus aliquam architecto possimus. Voluptatum?</p>
-                    <a href="#" class="btn btn-hero py-2 px-3">View all</a>
+                        Hawaii beaches are among the most beautiful and exotic in the world. We have long stretches of soft white sand caressed by warm blue water. We also have black sand, green sand, and red sand beaches</p>
+                    <button type="button" class="btn btn-primary btn-lg">View</button>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
     <!---End of Hero-Image-->
-<!---Search section-->
-<section>
-    <div class="section-search">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 tab-search">
-              <div class="nav nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link p-3 active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Flights</a>
-              <a class="nav-link p-3" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false"> Hotels</a>
-              <a class="nav-link p-3" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Car Rents</a>
-              <a class="nav-link p-3" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false"> Cruises</a>
-            </div>
-          </div>
-
-          <div class="tab-content py-5" id="v-pills-tabContent">
-            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-              <div class="block-17">
-                <form class="d-block d-lg-flex">
-                  <div class="fields d-block d-lg-flex">
-
-                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
-
-                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
-
-                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
-                    <div class="select-wrap one-third">
-                   <select name="" id="" class="form-control">
-                        <option value="">Guest</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3+</option>
-                        
-                      </select>
-                    </div>
-                  </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Find Flights">
-                </form>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-              <div class="block-17">
-                <form action="" method="post" class="d-block d-lg-flex">
-                  <div class="fields d-block d-lg-flex">
-                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Hotel"></div>
-
-                    <div class="check-in one-third"><input type="text" id="checkin_date" class="form-control" placeholder="Check-in date"></div>
-
-                    <div class="check-out one-third"><input type="text" id="checkout_date" class="form-control" placeholder="Check-out date"></div>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Guest</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3+</option>
-                        
-                      </select>
-                    </div>
-                  </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Find Hotels">
-                </form>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-              <div class="block-17">
-                <form action="" method="post" class="d-block d-lg-flex">
-                  <div class="fields d-block d-lg-flex">
-                    <div class="textfield-search one-third"><input type="text" class="form-control" placeholder="Search Location"></div>
-
-                    <div class="check-in one-third"><input type="text" id="start_date" class="form-control" placeholder="Start date"></div>
-
-                    <div class="check-out one-third"><input type="text" id="return_date" class="form-control" placeholder="Return date"></div>
-                    <div class="select-wrap one-third">
-                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Guest</option>
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3+</option>
-                        
-                      </select>
-                    </div>
-                  </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Find Car">
-                </form>
-              </div>
-            </div>
-            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-              <div class="block-17">
-                <form action="" method="post" class="d-block d-lg-flex">
-                  <div class="fields d-block d-lg-flex">
-                    <div class="textfield-search one-third one-third-1"><input type="text" class="form-control" placeholder="Search Location"></div>
-
-
-                    <div class="check-out one-third one-third-1"><input type="text" id="start_date" class="form-control" placeholder="Check-out date"></div>
-
-                    <div class="select-wrap one-third one-third-1">
-                      <div class="icon"></div>
-                      <select name="" id="" class="form-control">
-                        <option value="">Categories</option>
-                        <option value="">Suite</option>
-                        <option value="">Super Deluxe</option>
-                        <option value="">Economy</option>
-                        
-                      </select>
-                    </div>
-                  </div>
-                  <input type="submit" class="search-submit btn btn-primary" value="Find Cruise">
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!---End of Search section-->
-<!---Welcome/about section-->
+    <!---about section-->
+    <section id="about-us">
 <section class="about-section mt-5">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-6 text-center heading-section mb-5">
-                <h2 class="text-black mb-2">Welcome To Tourismo</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi a debitis et dolore ipsam minus voluptatum dolorum corporis doloremque ea.</p>
+                <h2 class="text-black mb-2">Welcome To Hawaii</h2>
+                <p>Hawaii, a place that embodies the spirit of warmth, hospitality, and natural beauty. Let's explore Hawaii together and uncover its secrets!</p>
             </div>
         </div>
         <div class="row img-wrap mb-5 mb-lg-0">
@@ -209,9 +90,9 @@
                     <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
                         <h2 class="text-black">Culture</h2>
                         <p class="mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                            Delve into Hawaii's rich cultural heritage, spanning over 1,000 years. Uncover the stories of the Native Hawaiian people.Hawaii has a rich cultural heritage, with a history dating back over 1,000 years.
                         </p>
-                        <a href="#"class="btn btn-about">Read More</a>
+                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
                     </div>
                 </div>
             </div>
@@ -229,9 +110,11 @@
                     <div class="col-lg-5 ml-auto align-self-center order-lg-1">
                         <h2 class="text-black">History</h2>
                         <p class="mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                            Visit the historic sites, museums, and cultural centers to experience the spirit of aloha.The state is known for its Native Hawaiian people, as well as its Asian, American, and European influences.
                         </p>
-                        <a href="#"class="btn btn-about">Read More</a>
+                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
+
+                        
                     </div>
                 </div>
             </div>
@@ -249,9 +132,10 @@
                     <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
                         <h2 class="text-black">Nature</h2>
                         <p class="mb-4">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum minima amet, assumenda aliquid temporibus molestiae.
+                            Hawaii is a paradise for nature lovers, with its stunning landscapes, diverse wildlife, and unique ecosystems. From the majestic volcanoes to the beautiful beaches, and from the lush rainforests to the coral reefs, Hawaii's natural beauty is simply breathtaking.
                         </p>
-                        <a href="#"class="btn btn-about">Read More</a>
+                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
+
                     </div>
                 </div>
             </div>
@@ -259,94 +143,98 @@
         <!------->
     </div>
 </section>
-<!------------->
-<!---Popular Places-->
 <section>
-      <!-- Popular Places -->
-      <div class="popular section-bg img-effect mt-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-        <div class="section-title text-center">                      
-          <h1 class="text-white">Popular Places </h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/ End of Popular Places-->
-    <!-- Other Popular  -->
-    <div class="all-image">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-5 col-md-5">
-                    <div class="single-img">
-                        <div class="img-thumb">
-                            <img src="https://i.postimg.cc/FK4dtp7z/img-1.jpg" alt="">
-                        </div>
-                        <div class="img-hover">
-                            <div class="title">
-                                    <h3>Lorem Ipsum</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-7 col-md-7">
-                    <div class="single-img">
-                        <div class="img-thumb">
-                            <img src="https://i.postimg.cc/gkx63rCz/img-2.jpg" alt="">
-                        </div>
-                        
-                        <div class="img-hover">
-                            <div class="title">
-                                    <h3>Lorem Ipsum</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single-img radial">
-                        <div class="img-thumb">
-                            <img src="https://i.postimg.cc/Hnd1dJbQ/img-3.jpg" alt="">
-                        </div>
-                       <div class="img-hover">
-                        <div class="title">
-                        <h3>Lorem Ipsum</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6 col-lg-4">
-                    <div class="single-img radial">
-                        <div class="img-thumb">
-                            <img src="https://i.postimg.cc/2SwbDvvx/img-4.jpg" alt="">
-                        </div>
-                         <div class="img-hover">
-                            <div class="title">
-                                    <h3>Lorem Ipsum</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-12 col-lg-4">
-                    <div class="single-img radial">
-                        <div class="img-thumb">
-                            <img src="https://i.postimg.cc/TwmTRMFX/img-5.jpg" alt="">
-                        </div>
-                     <div class="img-hover">
-                            <div class="title">
-                                    <h3>Lorem Ipsum</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+</section>
+    
+    <!-- Popular Places -->
+    <section id="popular-places">
+    <div class="popular section-bg img-effect mt-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-12">
+      <div class="section-title text-center">                      
+        <h1 class="text-white">Popular Places </h1>
+                  </div>
               </div>
-    </div>
-  
-    </section>
+          </div>
+      </div>
+  </div>
+  <!--/ End of Popular Places-->
+  <!-- Other Popular  -->
+  <div class="all-image">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-5 col-md-5">
+                  <div class="single-img">
+                      <div class="img-thumb">
+                          <img src="images/hawaii.jpg" alt="">
+                      </div>
+                      <div class="img-hover">
+                          <div class="title">
+                                  <h3>USS Arizona Memorial at Pearl Harbor
+                                    Oahu</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-7 col-md-7">
+                  <div class="single-img">
+                      <div class="img-thumb">
+                          <img src="images/hawaii2.jpg" alt="">
+                      </div>
+                      
+                      <div class="img-hover">
+                          <div class="title">
+                                  <h3>North Shore of Oahu</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                  <div class="single-img radial">
+                      <div class="img-thumb">
+                          <img src="images/hawaii3.jpg" alt="">
+                      </div>
+                     <div class="img-hover">
+                      <div class="title">
+                      <h3>Waikiki Beach</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                  <div class="single-img radial">
+                      <div class="img-thumb">
+                          <img src="images/hawaii4.jpg" alt="">
+                      </div>
+                       <div class="img-hover">
+                          <div class="title">
+                                  <h3>Na Pali Coast State Wilderness Park</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-md-12 col-lg-4">
+                  <div class="single-img radial">
+                      <div class="img-thumb">
+                          <img src="images/hawaii5.jpg" alt="">
+                      </div>
+                   <div class="img-hover">
+                          <div class="title">
+                                  <h3>Take a Trip to Lana’i</h3>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+            </div>
+  </div>
+
+  </section>
+</section>
 <!--end of Popular Places-->
 <!---services Section-->
+<section id="services">
 <section id="services" class="services section-bg">
     <div class="container">
         <div class="row">
@@ -354,7 +242,7 @@
                 <div class="section-title">
                     <h2>Services We Provide</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam, rem ad id aspernatur dolores animi!
+                        Hawaii offers a wide range of services to its residents and visitors. These services include good foods, Beach Resort, and online services
                     </p>
                 </div>
             </div>
@@ -367,7 +255,7 @@
                                 <i class="fas fa-drumstick-bite"></i>
                             </div>
                             <h4 class="text-white">Good Food</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                            <p>Hawaii is known for its unique and delicious cuisine, which reflects the state's cultural diversity and tropical location</p>
                         </div>
                     </div>
                     <!---->
@@ -377,7 +265,14 @@
                                 <i class="fas fa-umbrella-beach"></i>
                             </div>
                             <h4 class="text-white">Beach Resort</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                            <p>You can also rent various beach equipment, such as:
+
+                                Surfboards
+                                Paddleboards
+                                Kayaks
+                                Beach chairs
+                                Umbrellas
+                                Snorkeling gear.</p>
                         </div>
                     </div>
                     <!---->
@@ -386,8 +281,8 @@
                             <div class="icon">
                                 <i class="fas fa-hiking"></i>
                             </div>
-                            <h4 class="text-white">Mountain-climbing</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                            <h4 class="text-white">Ocean Safety and Lifeguard Services</h4>
+                            <p>Beaches in Hawaii provide ocean safety and lifeguard services to ensure your safety while enjoying the beach.</p>
                         </div>
                     </div>
                     <!---->
@@ -396,8 +291,15 @@
                             <div class="icon">
                                 <i class="fas fa-mountain"></i>
                             </div>
-                            <h4 class="text-white">Hot Air Ballon</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quia.</p>
+                            <h4 class="text-white">Beach Activities</h4>
+                            <p>Some popular beach activities in Hawaii include:
+
+                                Surfing lessons
+                                Sailing
+                                Canoeing
+                                Stand-up paddleboarding
+                                Beach volleyball
+                                Snorkeling.</p>
                         </div>
                     </div>
                     <!---->
@@ -408,30 +310,28 @@
         </div>
     </div>
 </section>
-<!---End of Services Section-->
-<!--- Team Section-->
-<section class="team section-bg mt-5">
+<section class="team section-bg mt-5"></section>
     <div class="container">
         <div class="section-title">
             <h2 class="text-center">Team</h2>
-            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti eius, maiores reiciendis suscipit aspernatur delectus.</p>
+            <p class="text-center">Our team is dedicated to preserving Hawaii's stunning landscapes, diverse wildlife, and rich cultural heritage. By supporting our conservation efforts, you'll be helping to protect:</p>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://i.postimg.cc/CK51p2wF/team.jpg"class="img-fluid"alt="">
+                        <img src="images/images.png"class="img-fluid"alt="">
                         <div class="social">
                             <a href=""><i class="fab fa-facebook"></i></a>
                             <a href=""><i class="fab fa-twitter"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
                         </div>
 
                     </div>
                     <div class="member-info">
-                        <h4>John Doe</h4>
-                        <span>Position Specification</span>
+                        <h4>John mangaala</h4>
+                        <span>Manager</span>
                     </div>
                 </div>
             </div>
@@ -439,18 +339,18 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://i.postimg.cc/CK51p2wF/team.jpg"class="img-fluid"alt="">
+                        <img src="images/profile.jpeg"class="img-fluid"alt="">
    <div class="social">
         <a href=""><i class="fab fa-facebook"></i></a>
              <a href=""><i class="fab fa-twitter"></i></a>
            <a href=""><i class="fab fa-instagram"></i></a>
-              <a href=""><i class="fab fa-linkedin"></i></a>
+              <a href=""><i class="fab fa-youtube"></i></a>
         </div>
 
      </div>
                     <div class="member-info">
-                        <h4>John Doe</h4>
-                        <span>Position Specification</span>
+                        <h4>maria shunde</h4>
+                        <span>Accountant</span>
                     </div>
                 </div>
             </div>
@@ -458,17 +358,17 @@
     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member">
                     <div class="member-img">
-  <img src="https://i.postimg.cc/CK51p2wF/team.jpg"class="img-fluid"alt="">
+  <img src="images/images.jpeg"class="img-fluid"alt="">
        <div class="social">
         <a href=""><i class="fab fa-facebook"></i></a>
           <a href=""><i class="fab fa-twitter"></i></a>
            <a href=""><i class="fab fa-instagram"></i></a>
-          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-youtube"></i></a>
           </div>
   </div>
      <div class="member-info">
-                        <h4>John Doe</h4>
-                        <span>Position Specification</span>
+                        <h4>lucia grahams</h4>
+                        <span>Treasurer</span>
                     </div>
                 </div>
             </div>
@@ -476,18 +376,18 @@
             <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                 <div class="member">
                     <div class="member-img">
-                        <img src="https://i.postimg.cc/CK51p2wF/team.jpg"class="img-fluid"alt="">
+                        <img src="images/images (1).png"class="img-fluid"alt="">
                         <div class="social">
                             <a href=""><i class="fab fa-facebook"></i></a>
                             <a href=""><i class="fab fa-twitter"></i></a>
                             <a href=""><i class="fab fa-instagram"></i></a>
-                            <a href=""><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
                         </div>
 
                     </div>
                     <div class="member-info">
-                        <h4>John Doe</h4>
-                        <span>Position Specification</span>
+                        <h4>julius watisom</h4>
+                        <span>Secretary</span>
                     </div>
                 </div>
             </div>
@@ -498,42 +398,11 @@
         </div>
     </div>
 </section>
-<!---End of Team Section-->
-<!---Package Section-->
-<section class="package section-padding mt-3">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-5">
-                <div class="section-title text-center">
-                    <h2 class="py-3">Packages We Offer</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-xl-6">
-                <div class="package-1">
-                    <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid"alt="">
-                    <div class="package-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
-                        <a href="#"class="btn-package p-2">View Details</a>
-                    </div>
-                </div>
-            </div>
-            <!----->
-            <div class="col-md-6 col-xl-6">
-                <div class="package-1">
-                    <img src="https://i.postimg.cc/cCwGNRK1/fa-2.jpg"class="img-fluid"alt="">
-                    <div class="package-text">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus est hic, dolor ab eos voluptatibus.</p>
-                        <a href="#"class="btn-package p-2">View Details</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
-<!---End of Package Section-->
-<!--- Historical Places Section-->
+<!---End of Services Section-->
+
+<!-- !Historical Places Section -->
+ <section id="historical-places">
 <section class="mt-2">
     <div class="historical-places">
         <div class="container">
@@ -541,7 +410,7 @@
                 <div class="col-lg-6">
                     <div class="section-title text-center mb-70">
                         <h3 class="text-uppercase text-center">historical places</h3>
-                        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis laboriosam totam animi nesciunt cum voluptates.</p>
+                        <p class="text-center">Hawaii is a treasure trove of historical landmarks, national parks, and cultural sites that showcase the rich heritage of the Aloha State. Here are some of the top historical places to visit in Hawaii</p>
                     </div>
                 </div>
             </div>
@@ -549,14 +418,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid"alt="">
+                            <img src="images/page2.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>Lolani Palace</h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>step inside the gates of this Ornate American Palace to view its Quaters.</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -579,14 +448,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/cCwGNRK1/fa-2.jpg"class="img-fluid"alt="">
+                            <img src="images/page 3.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>Pearl Habour</h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Reflect at the site where a Japanese air attacked plung the US into World war</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -609,14 +478,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid"alt="">
+                            <img src="images/page 4.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>Oahu Nature Tours </h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>We offer the finest Circle Island.</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -639,14 +508,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/W3ZHD2sX/fa-4.jpg"class="img-fluid"alt="">
+                            <img src="images/page5.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>USS Bowfin Submarine Museum & Park</h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Tour the historic World War 2 submarine and visit our Museums and Waterfront.</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -669,14 +538,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/nz1qS52n/fa-5.jpg"class="img-fluid"alt="">
+                            <img src="images/page6.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>Battleship Missouri Memorial</h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Where WWII ended with the Surrender of the Japanese Forces. With over six decades of life at sea and [...].</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -699,14 +568,14 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="single-dest">
                         <div class="thumb">
-                            <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid"alt="">
+                            <img src="images/page7.jpg"class="img-fluid"alt="">
                             <a href="#"class="price">$300</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
-                                <h3>Lorem</h3>
+                                <h3>U.S. Army Museum of Hawaii</h3>
                             </a>
-                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Military memorabilia and artifacts from early Hawaiian period through Vietnam War. Gallery of Heroes honoring Medal of Honor and Distinguished Service Cross recipients..</p>
                             <div class="rating d-flex justify-content-between">
                           <span class="d-flex justify-content-center align-items-center">
                               <i class="fas fa-star"></i>
@@ -731,7 +600,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="btn-hist text-center ">
-                      <div><a href="#" class="btn btn-hist">More Places</a></div>
+                        <div><button type="button" class="btn btn-primary btn-lg">Visit More</button></div>
                     </div>
                 </div>
             </div>
@@ -739,9 +608,7 @@
         </div>
     </div>
 </section>
-<!---End of Historical Places Section-->
-<!---Customers Section-->
-<section class="testimonial-section mt-5">
+<section class="testimonial-section mt-5"></section>
     <div class="container">
         <div class="row">
             <div class="section-title">
@@ -752,9 +619,9 @@
             <div class="col-lg-6">
                 <div class="testimonial-item">
                     <div class="test-date">
-                        09/08/2020
+                        17/09/2024
                     </div>
-                    <h4>Lorem ipsum dolor sit.
+                    <h4>Thrilled to be here enjoyed.
 
                     </h4>
                     <div class="rating">
@@ -764,13 +631,13 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perferendis quos cumque debitis, et veritatis?</p>
+                    <p>I recently had the pleasure of visiting hawaii, and I must say that it was an unforgettable experience. From the moment I stepped foot in this enchanting place, I knew that I was in for a treat.</p>
                     <div class="customer">
                         <div class="customer-photo">
-                            <img src="https://i.postimg.cc/CK51p2wF/team.jpg"alt="">
+                            <img src="images/images.png"alt="">
                         </div>
                         <div class="test-text">
-                            <h6>John Doe <span>Brazil</span></h6>
+                            <h6>Ismalia Fend <span>Brazil</span></h6>
                         </div>
                     </div>
                 </div>
@@ -779,9 +646,9 @@
             <div class="col-lg-6">
                 <div class="testimonial-item">
                     <div class="test-date">
-                        09/08/2020
+                        09/09/2024
                     </div>
-                    <h4>Lorem ipsum dolor sit.
+                    <h4>Really Enjoyed this place 
 
                     </h4>
                     <div class="rating">
@@ -791,10 +658,12 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum perferendis quos cumque debitis, et veritatis?</p>
+                    <p>I recently had the pleasure of visiting Hawaii, and I must say that it was a truly memorable experience. From the moment I arrived, I was struck by the [insert adjective, e.g., "warm", "welcoming", "bustling"] atmosphere that permeated the entire place.
+
+                    </p>
                     <div class="customer">
                         <div class="customer-photo">
-                            <img src="https://i.postimg.cc/CK51p2wF/team.jpg"alt="">
+                            <img src="images/images.jpeg"alt="">
                         </div>
                         <div class="test-text">
                             <h6>Sarah Johnson <span>Newzealand</span></h6>
@@ -806,244 +675,92 @@
         </div>
     </div>
 </section>
-<!---End of Customers Section-->
-<!--- Blog Section-->
-<section class="blog-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title">
-                    <h2 class="text-center pb-2">
-                        Recent Blog
-                    </h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <img src="https://i.postimg.cc/FK4dtp7z/img-1.jpg" class="img-fluid" alt="">
-                    <div class="blog-detail">
-                        <div class="blog-date">
-                            August 09,2020
-                        </div>
-                        <a href="#"class="tag">#lorem</a>
-                    </div>
-                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
-                </div>
-            </div>
-            <!----->
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <img src="https://i.postimg.cc/gkx63rCz/img-2.jpg" class="img-fluid" alt="">
-                    <div class="blog-detail">
-                        <div class="blog-date">
-                            August 09,2020
-                        </div>
-                        <a href="#"class="tag">#Ipsum</a>
-                    </div>
-                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
-                </div>
-            </div>
-            <!----->
-            <div class="col-lg-4 col-md-6">
-                <div class="single-blog">
-                    <img src="https://i.postimg.cc/Hnd1dJbQ/img-3.jpg" class="img-fluid" alt="">
-                    <div class="blog-detail">
-                        <div class="blog-date">
-                            August 09,2020
-                        </div>
-                        <a href="#"class="tag">#dolor</a>
-                    </div>
-                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur.</a></h4>
-                </div>
-            </div>
-            <!----->
-        </div>
-    </div>
 </section>
-<!---End of Blog Section-->
+<!---End of Historical Places Section-->
+
 <!---Contact Section-->
+<section id="contact">
 <section class="contact mt-3">
-<div class="container">
-    <div class="section-title">
-        <h2 class="text-center">
-            Contact Us
-        </h2>
-        <p class="text-center">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas consectetur.
-        </p>
-    </div>
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="icon-box">
-                        <i class="fas fa-share"></i>
-                        <h3>Social Profiles</h3>
-                        <div class="social-links">
-                            <a href="#"class="twitter">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="#"class="facebook">
-                                <i class="fab fa-facebook"></i>
-                            </a>
-                            <a href="#"class="instagram">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                            <a href="#"class="linkedin">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
+    <div class="container">
+        <div class="section-title">
+            <h2 class="text-center">
+                Contact Us
+            </h2>
+            <p class="text-center">
+                We welcome your inquiries and feedback; please don't hesitate to reach out to us at our page
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-6"> 
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="icon-box">
+                            <i class="fas fa-share"></i>
+                            <h3>Social Profiles</h3>
+                            <div class="social-links">
+                                <a href="#"class="twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#"class="facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#"class="instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#"class="youtube"></a>
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email Us</h3>
+                            <p>ashid5@gmail.com</p>
+                        </div>
+    
+                    </div>
+                    <div class="col-md-6">
+                        <div class="icon-box mt-4">
+                            <i class="fas fa-phone"></i>
+                            <h3>24/7 support</h3>
+                            <p>+254 22238845</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="icon-box mt-4">
-                        <i class="fas fa-envelope"></i>
-                        <h3>Email Us</h3>
-                        <p>info@example.com</p>
-                    </div>
-
-                </div>
-                <div class="col-md-6">
-                    <div class="icon-box mt-4">
-                        <i class="fas fa-phone"></i>
-                        <h3>24/7 support</h3>
-                        <p>+55 1234 5678</p>
-                    </div>
-                </div>
             </div>
-        </div>
-        <div class="col-lg-6">
-            <form>
-                <div class="form-row">
-                    <div class="col-md-6 form-group">
-                        <input type="text"name="name"class="form-control"
-                        id="name"placeholder="your name">
+            <div class="col-lg-6">
+                <form>
+                    <div class="form-row">
+                        <div class="col-md-6 form-group">
+                            <input type="text"name="name"class="form-control"
+                            id="name"placeholder="your name">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email"name="email"class="form-control"
+                            id="email"placeholder="your email">
+                        </div>
                     </div>
-                    <div class="col-md-6 form-group">
-                        <input type="email"name="email"class="form-control"
-                        id="email"placeholder="your email">
+                    <div class="form-group">
+                        <input type="text" class="form-control"name="subject"
+                        id="subject"placeholder="subject">
                     </div>
-                </div>
-                <div class="form-group">
-                    <input type="text" class="form-control"name="subject"
-                    id="subject"placeholder="subject">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control"name="message"row="6"
-                    placeholder="Message"></textarea>
-                </div>
-                <div><a href="#" class="btn btn-about">Send Message</a></div>
+                    <div class="form-group">
+                        <textarea class="form-control"name="message"row="6"
+                        placeholder="Message"></textarea>
+                    </div>
+                    <div><button type="button" class="btn btn-primary btn-lg">Send Message</button></div>
 
-            </form>
+    
+                </form>
+            </div>
         </div>
     </div>
-</div>
-
-
-
-
-
-</section> 
-<!---End of Contact Section-->
-<!------>
-<section class="instagram mt-5">
-    <div class="container-fluid">
-        <div class="row no-gutters justify-content-center pb-5">
-            <div class="col-md-7 text-center heading-section">
-                <h2><span>Instagram</span></h2>
-            </div>
-        </div>
-        <div class="row no-gutters">
-            <div class="col-sm-12 col-md">
-                <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid">
-                <div class="icon d-flex justify-content-center">
-                    <span class="icon-instagram align-self-center"></span>
-                </div>
-            </div>
-            <!----->
-            <div class="col-sm-12 col-md">
-                <img src="https://i.postimg.cc/W3ZHD2sX/fa-4.jpg"class="img-fluid">
-                <div class="icon d-flex justify-content-center">
-                    <span class="icon-instagram align-self-center"></span>
-                </div>
-            </div>
-            <!----->
-            <div class="col-sm-12 col-md">
-                <img src="https://i.postimg.cc/bNr1Lmtj/fa-3.jpg"class="img-fluid">
-                <div class="icon d-flex justify-content-center">
-                    <span class="icon-instagram align-self-center"></span>
-                </div>
-            </div>
-            <!----->
-            <div class="col-sm-12 col-md">
-                <img src="https://i.postimg.cc/nz1qS52n/fa-5.jpg"class="img-fluid">
-                <div class="icon d-flex justify-content-center">
-                    <span class="icon-instagram align-self-center"></span>
-                </div>
-            </div>
-            <!----->
-            <div class="col-sm-12 col-md">
-                <img src="https://i.postimg.cc/wBCWYSDJ/fa-6.jpg"class="img-fluid">
-                <div class="icon d-flex justify-content-center">
-                    <span class="icon-instagram align-self-center"></span>
-                </div>
-            </div>
-            <!----->
-        </div>
-
-    </div>
+    </section> 
 </section>
-<!---->
-<footer id="footer">
-    <div class="footer-newsletter">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <h4>Join Our News Letter</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-                    <form>
-                        <input type="email"name="email">
-                        <input type="submit"value="Subscribe">
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-  <div class="container py-4">
-      <div class="copyright">
-          &copy;Copyright<strong><span>Tourismo</span></strong>
-          .All Rights Reserved
-      </div>
-      <div class="credits">
-          Designed by<a href="#">Lorem Ipsum</a>
-      </div>
-  </div>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+    <!---End of Contact Section-->
+    
+    
+</body>
 </html>
