@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <script src="java.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
     <title>Vacations</title>
      <!-- Bootstrap CSS -->
@@ -67,84 +68,143 @@
         </div>
     </div>
 </section>
-    <!---End of Hero-Image-->
-    <!---about section-->
+    <!---End of image->
+    <-about section-->`
     <section id="about-us">
-<section class="about-section mt-5">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-6 text-center heading-section mb-5">
+        <section class="about-section mt-5">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center heading-section mb-5">
                 <h2 class="text-black mb-2">Welcome To Hawaii</h2>
                 <p>Hawaii, a place that embodies the spirit of warmth, hospitality, and natural beauty. Let's explore Hawaii together and uncover its secrets!</p>
+              </div>
             </div>
-        </div>
-        <div class="row img-wrap mb-5 mb-lg-0">
-            <div class="col-12">
+            <div class="row img-wrap mb-5 mb-lg-0">
+              <div class="col-12">
                 <div class="row">
-                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
-                        <a href="#" class="effect">
-                            <img src="https://i.postimg.cc/P5n01vCY/about-1.jpg"alt=""
-                            class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
-                        <h2 class="text-black">Culture</h2>
-                        <p class="mb-4">
-                            Delve into Hawaii's rich cultural heritage, spanning over 1,000 years. Uncover the stories of the Native Hawaiian people.Hawaii has a rich cultural heritage, with a history dating back over 1,000 years.
-                        </p>
-                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!------->
-        <div class="row img-wrap mb-5 mb-lg-0">
-            <div class="col-12">
-                <div class="row">
-                    <div class="mb-4 margin-lg-0 col-lg-6">
-                        <a href="#" class="effect">
-                            <img src="https://i.postimg.cc/1XjnLZq1/about-2.jpg"alt=""
-                            class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-lg-5 ml-auto align-self-center order-lg-1">
-                        <h2 class="text-black">History</h2>
-                        <p class="mb-4">
-                            Visit the historic sites, museums, and cultural centers to experience the spirit of aloha.The state is known for its Native Hawaiian people, as well as its Asian, American, and European influences.
-                        </p>
-                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
+                  <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                    <img src="images/imagee3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                    <h2 class="text-black">Culture</h2>
+                    <p class="mb-4">
+                      Delve into Hawaii's rich cultural heritage, spanning over 1,000 years. Uncover the stories of the Native Hawaiian people.Hawaii has a rich cultural heritage, with a history dating back over 1,000 years.
+                    </p>
+                    <button id="culture-button" class="bg-blue-500 text-white px-4 py-2 rounded" onclick="toggleContent('culture')">Read More</button>
+                <div id="culture-content" class="mt-2 text-gray-600" style="display: none;">
+                    Hawaii’s cultural milieu is the result of overlay after overlay of varied cultural groups. For many years the legacy of colonialism in Hawaii was among the factors that diminished and diluted Native Hawaiian culture. Beginning in the 1970s, however, a renaissance led to the vibrant expression of the islands’ traditional culture that is evident today in Hawaii. At the centre of this cultural renaissance was an emphasis on instruction in and practice of the Hawaiian language, along with a resurgence of interest in key elements of Native Hawaiian culture, including the voyaging canoe, the art of tattooing, traditional music, kapa (bark cloth) making, and especially the hula. Most Hawaiian inhabitants know at least some Hawaiian words and observe cultural practices including the giving of the lei, a garland of flowers. The “Aloha Spirit,” however commercialized it has become, is reflective of the way many diverse groups live together on the small islands. The traditions of many ethnic groups have become mainstream in contemporary Hawaii, including the celebration of the Chinese New Year in late January or early February and the annual Japanese Bon festival in July or August.
 
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!------->
-        <div class="row img-wrap mb-5 mb-lg-0">
-            <div class="col-12">
-                <div class="row">
-                    <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
-                        <a href="#" class="effect">
-                            <img src="https://i.postimg.cc/1X9r9PXg/about-3.jpg"alt=""
-                            class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
-                        <h2 class="text-black">Nature</h2>
-                        <p class="mb-4">
-                            Hawaii is a paradise for nature lovers, with its stunning landscapes, diverse wildlife, and unique ecosystems. From the majestic volcanoes to the beautiful beaches, and from the lush rainforests to the coral reefs, Hawaii's natural beauty is simply breathtaking.
-                        </p>
-                        <button type="button" class="btn btn-primary btn-lg">Read More</button>
 
-                    </div>
                 </div>
+
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <!------->
-    </div>
-</section>
-<section>
-</section>
+            <!------->
+            
+            <!------->
+            <div class="row img-wrap mb-5 mb-lg-0">
+              <div class="col-12">
+                <div class="row">
+                  <div class="mb-4 margin-lg-0 col-lg-6">
+                    <img src="images/imagee2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-5 ml-auto align-self-center order-lg-1">
+                    <h2 class="text-black">History</h2>
+                    <p class="mb-4">
+                      Visit the historic sites, museums, and cultural centers to experience the spirit of aloha.The state is known for its Native Hawaiian people, as well as its Asian, American, and European influences.
+                    </p>
+                    <button id="history-button" class="bg-blue-500 text-white px-4 py-2 rounded" onclick="toggleContent('history')">Read More</button>
+                    <div id="history-content" class="mt-2 text-gray-600" style="display: none;">
+                        Ancient Hawaii (1000 AD - 1778 AD)
+
+Polynesian explorers from the Marquesas Islands arrived in Hawaii around 1000 AD, establishing a rich cultural foundation.
+A second wave of Polynesians from the Society Islands arrived around 1200 AD, further shaping Hawaiian society.
+The Hawaiian Islands were divided into four main kingdoms: Kauai, Oahu, Maui, and Hawaii.
+The ali'i (chiefs) ruled the kingdoms, with a complex system of kapu (taboos) governing daily life.
+European Discovery and Unification (1778 - 1810)
+
+In 1778, British explorer Captain James Cook arrived in Hawaii, marking the beginning of European contact.
+King Kamehameha I united the Hawaiian Islands under one rule, creating the Kingdom of Hawaii in 1810.
+Kingdom of Hawaii (1810 - 1893)
+
+The Kingdom of Hawaii was a sovereign state, with a constitutional monarchy and a system of government.
+King Kamehameha III established the capital in Honolulu and introduced Christianity.
+The kingdom was a major producer of sugar, with American and European businessmen investing heavily.
+Overthrow and Annexation (1893 - 1898)
+
+In 1893, a group of American and European businessmen overthrew the Kingdom of Hawaii, establishing a provisional government.
+In 1898, the United States annexed Hawaii through a joint resolution of Congress.
+Territory of Hawaii (1898 - 1959)
+
+Hawaii became a U.S. territory, with a governor and a territorial legislature.
+The Hawaiian population declined due to disease, and the Native Hawaiian population was marginalized.
+Statehood and Modern Hawaii (1959 - present)
+
+In 1959, Hawaii became the 50th state of the United States, following a referendum in which Native Hawaiians and residents voted in favor of statehood.
+Today, Hawaii is a popular tourist destination, with a thriving economy and a rich cultural heritage.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------->
+            <div class="row img-wrap mb-5 mb-lg-0">
+              <div class="col-12">
+                <div class="row">
+                  <div class="mb-4 margin-lg-0 col-lg-6 order-lg-2">
+                    <img src="images/imagee.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-5 mr-auto text-lg-right align-self-center order-lg-1">
+                    <h2 class="text-black">Nature</h2>
+                    <p class="mb-4">
+                      Hawaii is a paradise for nature lovers, with its stunning landscapes, diverse wildlife, and unique ecosystems. From the majestic volcanoes to the beautiful beaches, and from the lush rainforests to the coral reefs, Hawaii's natural beauty is simply breathtaking.
+                    </p>
+                    <button id="nature-button" class="bg-blue-500 text-white px-4 py-2 rounded" onclick="toggleContent('nature')">Read More</button>
+                <div id="nature-content" class="mt-2 text-gray-600" style="display: none;">
+                    Hawaii's Natural Beauty
+
+Hawaii is renowned for its breathtaking natural landscapes, diverse ecosystems, and unique geological features. Here are some of the most notable aspects of Hawaii's natural beauty:
+
+Volcanic Landscapes
+
+Hawaii is home to several active volcanoes, including Kilauea, Mauna Loa, and Haleakala.
+The volcanic landscapes have created a diverse range of ecosystems, including rainforests, deserts, and coral reefs.
+Beaches and Coastlines
+
+Hawaii boasts some of the most beautiful and iconic beaches in the world, such as Waikiki Beach, Kaanapali Beach, and Hanauma Bay.
+The coastlines offer stunning scenery, with towering sea cliffs, hidden coves, and picturesque harbors.
+Rainforests and Waterfalls
+
+Hawaii's rainforests are home to a vast array of flora and fauna, including native species found nowhere else in the world.
+The islands are dotted with breathtaking waterfalls, such as Akaka Falls and Rainbow Falls, which cascade down lush green valleys.
+Mountains and Valleys
+
+Hawaii's mountain ranges, including Mauna Kea and Mauna Loa, offer stunning vistas and are home to some of the world's most advanced astronomical observatories.
+The valleys, such as the Waipio Valley and the Valley of the Kings, are steeped in history and cultural significance.
+Wildlife and Conservation
+
+Hawaii is home to a unique array of wildlife, including the Hawaiian goose (nene), the Hawaiian monk seal, and the green sea turtle.
+Conservation efforts are in place to protect Hawaii's fragile ecosystems and endangered species.
+Natural Wonders
+
+Hawaii is home to several natural wonders, including the Na Pali Coast, the Waimea Canyon, and the Thurston Lava Tube.
+The islands are also home to numerous natural wonders, such as the Haleakala National Park and the Hawaii Volcanoes National Park.
+                </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!------->
+          </div>
+        </section>
+        <section>
+        </section>
+      </section>
+    
+
+<!-- end of about-section -->
     
     <!-- Popular Places -->
     <section id="popular-places">
@@ -229,6 +289,7 @@
           </div>
             </div>
   </div>
+  
 
   </section>
 </section>
@@ -246,6 +307,7 @@
                     </p>
                 </div>
             </div>
+            
             <!----->
             <div class="col-lg-8">
                 <div class="row">
@@ -258,6 +320,7 @@
                             <p>Hawaii is known for its unique and delicious cuisine, which reflects the state's cultural diversity and tropical location</p>
                         </div>
                     </div>
+                    
                     <!---->
                     <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                         <div class="icon-circle pink">
@@ -419,7 +482,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page2.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$100</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -449,7 +512,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page 3.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$50</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -479,7 +542,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page 4.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$240</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -509,7 +572,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page5.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$310</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -539,7 +602,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page6.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$200</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -569,7 +632,7 @@
                     <div class="single-dest">
                         <div class="thumb">
                             <img src="images/page7.jpg"class="img-fluid"alt="">
-                            <a href="#"class="price">$300</a>
+                            <a href="#"class="price">$400</a>
                         </div>
                         <div class="dest-info">
                             <a href="#">
@@ -600,7 +663,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="btn-hist text-center ">
-                        <div><button type="button" class="btn btn-primary btn-lg">Visit More</button></div>
+                        <div><button type="button" class="btn btn-primary btn-lg">Welcome Aboard</button></div>
                     </div>
                 </div>
             </div>

@@ -98,50 +98,88 @@ body{
     padding:5px 17px;
 }
 
-.heading-section h2{
-    text-transform: uppercase;
-    font-weight: bold;
+/* about us  */
+.about-section {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.img-wrap .effect{
-    position: relative;
-    margin-bottom: 0;
-    display: block;
+
+.heading-section {
+  margin-bottom: 20px;
 }
-.img-wrap .effect:after{
-    z-index:-1;
-    content:"";
-    position: absolute;
-    top:10px;
-    right:10px;
-    bottom:10px;
-    left:10px;
-    background: #011525;
-    transition: .3s all ease-in-out;
+
+.heading-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
-.img-wrap:hover .effect:after{
-    right:-10px;
-    bottom:-10px;
-    position: absolute;
+
+.heading-section p {
+  font-size: 18px;
+  color: #666;
 }
-.btn-about{
-    background-color: #030157!important;
-    color:#fff!important;
-    margin-right:5px;
-    margin-left:5px;
-    animation:skew 3s infinite;
-    animation-direction: normal;
-    transform: skew(20deg);
-    animation-direction: alternate;
-    padding:5px 17px;
+
+/* Image Wrap Styles */
+
+.img-wrap {
+  margin-bottom: 40px;
 }
-@keyframes skew{
-    0%{
-        transform: skewX(20deg);
-    }
-    100%{
-        transform: skewX(-20deg);
-    }
+
+.img-wrap img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
 }
+
+.img-wrap .col-lg-5 {
+  padding: 20px;
+}
+
+.img-wrap h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.img-wrap p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Button Styles */
+#history-button  {
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#nature-button{
+background-color: #007bff; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+#culture-button{
+  background-color: #007bff; 
+    color: #ffffff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+
+
+
+/* end of about  */
+
+/* popular places  */
 .popular {
     background-image: url(https://i.postimg.cc/mgQkS98s/hero-2.jpg);
     background-size: cover;
@@ -199,7 +237,7 @@ body{
     left: 0;
     right: 0;
     text-align: center;
-    transform: translateY(-50%);
+    
   }
   .all-image .single-img .img-hover h3 {
     color: #fff;
@@ -335,6 +373,12 @@ body{
 .team .member:hover .social{
     opacity: 1;
 }
+
+
+
+
+
+
 .historical-places{
     padding-top: 130px;
     padding-bottom: 140px;
